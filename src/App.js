@@ -1,4 +1,3 @@
-import logo from './logo.svg'
 import TodoHeader from './components/TodoHeader'
 import TodoInput from './components/TodoInput'
 import './App.css'
@@ -8,7 +7,7 @@ const App = props => {
     <div className='container'>
       <TodoHeader />
        <TodoInput />
-      <TodoTaskList />
+    {/* {  <TodoTaskList />} */}
     </div>
   )
 }
