@@ -1,7 +1,6 @@
 import React from 'react'
 import Icon from '@mdi/react'
 import { mdiMenu } from '@mdi/js'
-import cx from 'classnames'
 import styles from './TodoHeader.module.scss'
 
 const TodoHeader = () => {
