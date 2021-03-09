@@ -1,15 +1,16 @@
-import logo from './logo.svg';
-import TodoHeader from './components/TodoListHeader';
-import './App.css';
+import logo from './logo.svg'
+import TodoHeader from './components/TodoHeader'
+import TodoInput from './components/TodoInput'
+import './App.css'
 
-function App() {
+const App = props => {
   return (
-    <div className="container">
+    <div className='container'>
       <TodoHeader />
-      {/* {<TodoInput />
-      <TodoTaskList />} */}
+       <TodoInput />
+      <TodoTaskList />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
