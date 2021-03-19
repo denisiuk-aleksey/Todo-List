@@ -1,0 +1,29 @@
+.input{
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  margin: 10px 10px 0 20px;
+  border-radius: 10px;
+}
+
+.submitButton{
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  color: gray;
+}
+
+.container{
+  position: relative;
+}
+
+.errorMessage {
+  position: absolute;
+  padding: 10px 15px;
+  top: 12%;
+  color: #ba3939;
+  background: #ffe0e0;
+  border: 1px solid #a33a3a;
+  border-radius: 5px;
+}
