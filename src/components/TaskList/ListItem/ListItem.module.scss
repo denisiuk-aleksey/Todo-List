@@ -1,0 +1,23 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+}
+
+.taskDefalt{
+  cursor: pointer;
+  user-select: none;
+  padding-right: 40px;
+  height: auto;
+  word-wrap: break-word;
+  align-items: center;
+}
+
+.taskDone {
+  color: green;
+}
+
+.taskCancel {
+  text-decoration: line-through;
+  color: red;
+}
